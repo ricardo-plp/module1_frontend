@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="lg:content-auto">
+      <header>
+        <nav
+          class="flex items-center justify-between px-9 border-b-4"
+          style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+        >
+          <div class="container_logo w-48">
+            <img src="./logo_tailwind.png" alt="logo" />
+          </div>
+          <div class="container_links_nav">
+            <ul>
+              <li><a href="#">Components</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="main_container px-9 flex mt-24">
+        <div>
+          <h1 class="text-6xl font-semibold w-4/5 mb-10">
+            Streamline your Tailwind projects
+          </h1>
+          <p class="w-2/4 mb-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+          <button class="p-4 bg-emerald-600 text-white rounded-lg">
+            Get started
+          </button>
+        </div>
+        <div class="container_img w-2/5">
+          <img src="./4855100.jpg" alt="" />
+        </div>
+      </div>
+      <div class="px-9">
+        <div>
+          <img src="./icon1.svg" alt="" />
+          <h2>Accesible Components</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut laboris
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
